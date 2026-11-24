@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer Camera Lens Ring -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#90CAF9"
+        android:strokeWidth="4"
+        android:pathData="M54,20 A34,34 0 1,1 53.9,20 Z" />
+
+    <!-- Inner Aperture Blades / Ring -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#1565C0"
+        android:strokeWidth="2.5"
+        android:pathData="M54,28 A26,26 0 1,1 53.9,28 Z" />
+
+    <!-- Triangular Prism in Center -->
+    <path
+        android:fillColor="#1565C0"
+        android:fillAlpha="0.85"
+        android:pathData="M54,34 L74,72 L34,72 Z" />
+
+    <path
+        android:strokeColor="#90CAF9"
+        android:strokeWidth="2"
+        android:pathData="M54,34 L74,72 L34,72 Z" />
+
+    <!-- Dispersed Light Rays (Prism Spectrum) -->
+    <!-- Incoming White Light Ray -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M20,53 L44,53" />
+
+    <!-- Refracted & Dispersed Color Rays -->
+    <path
+        android:strokeColor="#E53935"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M64,55 L90,40" />
+    <path
+        android:strokeColor="#FFB300"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M64,57 L92,50" />
+    <path
+        android:strokeColor="#4CAF50"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M64,59 L92,62" />
+    <path
+        android:strokeColor="#00BCD4"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M64,61 L90,74" />
+
+</vector>
